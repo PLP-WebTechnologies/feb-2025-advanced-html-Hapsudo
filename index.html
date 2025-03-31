@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" width="device-width, intial-scale=1.0">
+        <title>Top artists best in Spotify listening</title>
+    </head>
+    <header>
+        <h1>"The" Artists</h1>
+    </header>
+    <body>
+
+<!-- Ordered list-->
+
+<ol type="I">
+    <li>Doechi</li>
+    <li>Winter</li>
+    <li>Glorilla</li>
+    <li>JT</li>
+    <li>Kendric Lamar</li>
+</ol>
+
+<!-- Adding Images-->
+ <div style="margin-left: 20px;">
+    <img src="artists.jpg" alt="Some of the artists" width="300" height="200">
+ </div>
+
+
+<!-- Adding of tables-->
+<table border="1">
+    <caption><b>Contact List</b></caption>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Emails</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Wanjiku</td>
+        <td>Nyeri</td>
+        <td>0798456098</td>
+        <td>wanjikun@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Ruger</td>
+        <td>Nigeria</td>
+        <td>54718932852</td>
+        <td>rugerw@yahoo.com</td>
+    </tr>
+    <tr>
+        <td>T-pain</td>
+        <td>Herts</td>
+        <td>2236777906</td>
+        <td>tpain.r@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Njerae</td>
+        <td>London</td>
+        <td>2027418966</td>
+        <td>njerae1@gmail.com</td>
+    </tr>
+    
+</tbody>
+</table>
+
+<!-- Adding Form-->
+<form>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" name ="name" placeholder="Enter Your Full Name">
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Type Your email here" required>
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" name ="password" minlength="8" maxlength="15" placeholder="Input a strong password">
+    </p>
+    <p>
+        <label for="date">Date:</label>
+        <input type="date" name ="date" required>
+    </p>
+    Do you want to be contacted?
+    <select name = "contact">
+        <option value = "Yes">Yes</option>
+        <option value = "No">No</option>
+    </select>
+    <p>
+        <input type="checkbox" id="Contactconsent" name="Contactconsent" required>
+        <label for="Contactconsent">I agree that the information shared is correct.</label>
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+
+</form>
+    </body>
+</html>
